@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 // import images
-import Image1 from '../img/portfolio/1.png';
-import Image2 from '../img/portfolio/2.png';
-import Image3 from '../img/portfolio/3.png';
-import Image4 from '../img/portfolio/4.png';
+import Image1 from '../img/portfolio/1.jpg';
+import Image2 from '../img/portfolio/2.jpg';
+import Image3 from '../img/portfolio/3.jpg';
+import Image4 from '../img/portfolio/4.jpg';
 // import link
 import { Link } from 'react-router-dom';
 // import motion
@@ -37,17 +37,23 @@ const Portfolio = () => {
           >
             <h1 className='h1'>Portfolio</h1>
             <p className='mb-12 max-w-sm'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              <b> Exercitationem, veritatis.</b> Veritatis illum aut,
-              reprehenderit sed dolorem dolore.
+            These photos were taken at the Auckland Art Gallery and 
+              <b> capture the essence of what I love about photography - the interplay of light and shadows.</b> 
               <br />
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Recusandae, iure! Ullam, dolore? Eligendi, quam mollitia.
+              Each photo highlights a unique aspect of this theme, from the patterns of the shadow cast by the gallery's architecture to the way light reflects off the surfaces around me. 
+              <br />
+              <br />
+              By capturing these moments, I hope to convey the beauty and depth of this fundamental aspect of photography.
             </p>
-            <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>
-              Hire me
-            </Link>
+            <div>
+              <a href='http://www.instagram.com/thelexyx' target= '_blank'>
+                <button className='btn mb-[30px] mx-auto lg:mx-0'>
+                  Find more on instagram
+                </button>
+              </a>
+            </div>
+            
           </motion.div>
           {/* image grid */}
           <div

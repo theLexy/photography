@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 // import images
-import WomanImg from '../img/about/woman.png';
+import WomanImg from '../img/about/woman.jpg';
 // import link
 import { Link } from 'react-router-dom';
 // import motion
@@ -41,13 +41,16 @@ const About = () => {
           >
             <h1 className='h1'>About me</h1>
             <p className='mb-12 max-w-sm'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              <b> Exercitationem, veritatis.</b> Veritatis illum aut,
-              reprehenderit sed dolorem dolore.
-              <br />
-              <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Recusandae, iure! Ullam, dolore? Eligendi, quam mollitia.
+            I've been fascinated with photography since a young age. What started as a way to document my life and the world around me quickly became a passion for capturing beauty in everyday moments.
+            <br />
+           
+            As a creative photographer, I love to experiment with different perspectives, angles, and lighting to create unique and artistic images. 
+            <br />
+            <br />
+            <b> While I'm not a professional photographer,</b> I take pride in my work and enjoy sharing my perspective with others.
+            <br />
+            <br />
+            Most of my photos are streetscapes and my cats or art projects, with occasional snapshots of landscapes. Whether I'm shooting with a DSLR or just my smartphone, photography is a way for me to express myself and share my experiences with others.
             </p>
             <Link to={'/portfolio'} className='btn'>
               View my work

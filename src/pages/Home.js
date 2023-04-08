@@ -34,13 +34,13 @@ const Home = () => {
             className='w-full pt-36 pb-14 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start'
           >
             <h1 className='h1'>
-              photographer <br /> & film maker
+              Creative <br />photographer 
             </h1>
             <p className='text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12'>
-              Los Angeles, USA
+              Auckland, New Zealand
             </p>
             <Link to={'/contact'} className='btn mb-[30px]'>
-              hire me
+              Contact Me
             </Link>
           </motion.div>
           {/* image */}
